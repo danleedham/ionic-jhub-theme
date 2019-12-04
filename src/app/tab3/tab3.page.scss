@@ -1,1 +1,15 @@
+ion-content {
+    --ion-color-primary: var(--ion-color-tab3-bg);
+    &.tab3Color {
+        --ion-background-color: var(--ion-color-tab3-bg);
+    }
+}
+p {
+    font-weight: bold;
+    color: var(--ion-color-tab1-white-bg);
+}
+
+h1 {
+    color: var(--ion-color-tab1-white-bg);
+}
 

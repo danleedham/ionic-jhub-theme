@@ -1,1 +1,6 @@
-
+ion-content {
+    --ion-color-primary: var(--ion-color-tab2-bg);
+    &.tab2Color {
+        --ion-background-color: var(--ion-color-tab2-bg);
+    }
+}

@@ -1,9 +1,32 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab Two
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content></ion-content>
+<ion-content padding class="tab2Color">
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <ion-item class="white" lines="none">
+                    <ion-label>Attribute Name</ion-label>
+                    <ion-select interface="action-sheet">
+                        <ion-select-option value="One">One</ion-select-option>
+                        <ion-select-option value="Two">Two</ion-select-option>
+                    </ion-select>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-item class="white" lines="none">
+                    <ion-label position="floating">Input Go</ion-label>
+                    <ion-input></ion-input>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-item class="white" lines="none">
+                    <ion-label position="floating">Number Input</ion-label>
+                    <ion-input type="number"></ion-input>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+        <ion-button padding fill="solid" expand="full" color="danger">Reset All Local Data </ion-button>
+    </ion-grid>
+</ion-content>
